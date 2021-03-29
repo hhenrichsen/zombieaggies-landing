@@ -1,0 +1,114 @@
+html {
+    --orange: #f46524;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F4F6;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    max-width: 640px;
+    margin: 0.5em auto;
+}
+
+p,li {
+    max-width: 640px;
+    margin: 0.5em auto;
+}
+
+p {
+    margin: 1em auto;
+}
+
+section:first-of-type {
+    margin: 0 auto;
+}
+
+section:last-of-type {
+    border-radius: 0 0 2em 2em;
+}
+
+section {
+    max-width: 960px;
+    margin: 4em auto;
+    padding: 1.5em;
+}
+
+section#title {
+    max-width: 960px;
+}
+
+body {
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow: 0.5em 0.5em 1em #dddddd;
+    border-radius: 0 0 2em 2em;
+}
+
+section {
+    background-color: white;
+}
+
+.offset {
+    position: relative;
+}
+
+section:nth-child(odd) {
+    background-color: var(--orange);
+    color: white;
+    box-shadow: 0.5em 0.5em 1em #dddddd;
+}
+
+section:nth-child(odd) a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        max-width: 95%;
+    }
+
+    section#title {
+        max-width: 95%;
+    }
+
+    p {
+        max-width: 90%;
+        padding: 2em;
+    }
+
+    .narrow-hide {
+        display: none;
+    }
+}
