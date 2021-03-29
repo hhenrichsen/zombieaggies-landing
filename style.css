@@ -111,4 +111,37 @@ footer {
     .narrow-hide {
         display: none;
     }
+
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.image-container {
+    border: 0.5em var(--orange) solid;
+    width: fit-content;
+    box-shadow: inset 0 0 1em #000d;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0.5em auto;
+}
+
+section:nth-child(odd) .image-container {
+    border: 0.5em white solid;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.presidency {
+    text-align: center;
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
 }
